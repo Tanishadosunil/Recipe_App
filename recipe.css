@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #4F4A45; 
+  color: white;
+}
+
+header {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2727;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+    
+}
+
+form input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+form button {
+  padding: 5px;
+  background-color: #d2263d;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #c44f5f;
+}
+
+main h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.recipe-container {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  
+}
+
+.image-class {
+  height: 110px;
+  width: 240px;
+  object-fit: cover;
+}
+
+.hide {
+  display: none;
+}
+
+.instruction-page {
+  padding: 30px 300px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients-div {
+  
+  display: flex;
+  justify-content: center;
+}
